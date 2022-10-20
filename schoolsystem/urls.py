@@ -27,7 +27,6 @@ urlpatterns = [
     path("course/",include("course.urls")),
     path("calendary/", include("calendary.urls")),
     path("api/", include("api.urls")),
-    path('accounts/', include('registration.backends.default.urls')),
 
 
 
